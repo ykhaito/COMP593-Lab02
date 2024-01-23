@@ -20,15 +20,17 @@ def main():
 
 
     # TODO: Step 3 - Add another movie to the data structure
-    movie = { 
+    movies ={ 
           'title': 'saw',
           'genre': 'horror',
         },
-    about_me['movie'].append
+    about_me['movies'].append(about_me)
+    print_student_name_and_id(about_me)
 
 # TODO: Step 4 - Function that prints student name and ID	
 def print_student_name_and_id(about_me):
-    print(f"My name is {about_me['full_name']}, but you can call me Sir ")
+    print(f"My name is {about_me['full_name']}, but you can call me Sir {about_me['full_name'].split()[0]}.")
+    print(f'My student ID is {about_me['student_id']}')
     return
     
 # TODO: Step 5 - Function that adds pizza toppings to data structure
