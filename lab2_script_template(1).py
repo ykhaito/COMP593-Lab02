@@ -26,7 +26,7 @@ def main():
         },
     about_me['movies'].append(about_me)
     print_student_name_and_id(about_me)
-
+    add_pizza_toppings(about_me,('Green peppers', 'Green Onions'))
 # TODO: Step 4 - Function that prints student name and ID	
 def print_student_name_and_id(about_me):
     print(f"My name is {about_me['full_name']}, but you can call me Sir {about_me['full_name'].split()[0]}.")
